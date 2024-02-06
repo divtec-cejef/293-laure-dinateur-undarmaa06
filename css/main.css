@@ -71,7 +71,7 @@ h6 {
 h1 {
     font-size: 2rem;
     margin-bottom: 1em;
-    color: #2ec4b6;
+    color: #011627;
 }
 
 h2{
@@ -112,6 +112,14 @@ header ul li.accueil {
 header ul li a {
     padding: 5px 10px;
     display: inline-block;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    color: #fdfffc;
+}
+
+header ul li a:hover,
+header ul li a.actif{
+    color: #2ec4b6;
 }
 
 .personne {
@@ -131,10 +139,40 @@ header ul li a {
 a:hover {
     color: #2ec4b6;
 }
-/********************************
+/*************************************
             Menu de navigation
- *******************************/
+ *************************************/
 nav ul {
     margin: 0;
     padding: 0;
+}
+
+/*************************************
+        pied de page
+ ************************************/
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+footer nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer nav ul li a img {
+    width: 50px;
+    margin: 15px;
+    filter: grayscale(1);
+}
+
+footer nav ul li a img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
+/*************************************
+        Page me contacter
+ ************************************/
+.info-contact li a {
+    color: #e71d36;
+    text-decoration: none;
 }
