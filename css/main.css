@@ -71,6 +71,7 @@ h6 {
 h1 {
     font-size: 2rem;
     margin-bottom: 1em;
+    color: #2ec4b6;
 }
 
 h2{
@@ -83,14 +84,57 @@ p {
 }
 
 a {
-    color: #e71d36;
+    color: #fdfffc;
     text-decoration: none;
+}
+/********************************
+            Entête du site
+ *******************************/
+header {
+    background-color: #011627;
+    text-align: center;
+    padding: 5px 30px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header ul li.accueil {
+    display: none;
+}
+
+header ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.personne {
+    font-size: 1.75rem;
+    line-height: 0.8;
+    color: #2ec4b6;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.metier {
+    margin-top: -5px;
+    color: #e71d36;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #2ec4b6;
 }
-
 /********************************
-            PAGE ACCUEIL
+            Menu de navigation
  *******************************/
+nav ul {
+    margin: 0;
+    padding: 0;
+}
